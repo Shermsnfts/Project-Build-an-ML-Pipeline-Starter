@@ -2,6 +2,9 @@
 """
 This script splits the provided dataframe in test and remainder
 """
+import sys
+sys.path.append("/workspace/Project-Build-an-ML-Pipeline-Starter")
+
 import argparse
 import logging
 import pandas as pd
