@@ -40,7 +40,7 @@ def go(config: DictConfig):
             _ = mlflow.run(
                 f"{config['main']['components_repository']}/get_data",
                 "main",
-                env_manager="conda",
+                env_manager=config["main"]["env_manager"],  # <-- Dynamic Reference!
                 parameters={
                     "sample": config["etl"]["sample"],
                     "artifact_name": "sample.csv",
@@ -48,7 +48,6 @@ def go(config: DictConfig):
                     "artifact_description": "Raw file as downloaded"
                 },
             )
-
         if "basic_cleaning" in active_steps:
             ##################
             # Implement here #

@@ -145,3 +145,4 @@ mlruns/
 outputs/
 random_forest_dir/
 multirun/
+wandb_key.txt
