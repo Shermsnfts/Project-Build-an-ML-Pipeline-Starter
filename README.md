@@ -1,8 +1,9 @@
 # GitHub Repository Link Below, ensured this is set to public.
 # https://github.com/Shermsnfts/Project-Build-an-ML-Pipeline-Starter.git
-# W&B Project link below. I tried to see if there was a "Public" option but it only said team as to which # I will assume the evaluator has access
+# W&B Project link below. 
 # https://wandb.ai/workwithcophen-western-governors-university/nyc_airbnb
-
+# IF YOU CANNOT ACCESS W&B with the link above, here is the Report that # I was advised to supply a link for, see below:
+# https://wandb.ai/workwithcophen-western-governors-university/nyc_airbnb/reports/Untitled-Report--VmlldzoxNzM1MzQzNA
 
 
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
